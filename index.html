@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+    <link rel="stylesheet" href="css/output.css">
+    <link rel="stylesheet" href="css/input.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Ganit, The Assurance</title>
+</head>
+
+<body>
+    <div class="flex justify-between px-5 py-2 bg-white sticky top-0  text-[#DDAA44] md:mx-10 rounded-xl">
+        <div class="flex space-x-3 hover:text-[#9B8861]">
+            <div class="block hamburger-menu py-3 inline-block cursor-pointer">
+                <div class="line h-0.5 w-6  my-1 mx-2 bg-[#DDAA44]"></div>
+                <div class="line h-0.5 w-6  my-1 mx-2 bg-[#DDAA44]"></div>
+                <div class="line h-0.5 w-6  my-1 mx-2 bg-[#DDAA44]"></div>
+            </div>
+            <p class="my-2 font-bold text-2xl font-custom text-[#DDAA44] hover:text-[#9B8861]">Ganit, The Assurance
+            </p>
+        </div>
+        <!-- Sidebar -->
+        <div
+            class="sidebar  bg-white h-screen w-2/5 md:1/5 fixed top-0 right-0 transition-transform duration-300 transform translate-x-full">
+            <!-- Add sidebar content here -->
+            <ul class="mt-10 flex flex-col space-y-6">
+                <li class="py-2 px-4 hover:bg-gray-200 cursor-pointer font-semibold">
+                    <a href="#posts">Posts</a>
+                </li>
+                <li class="py-2 px-4 hover:bg-gray-200 cursor-pointer font-semibold">
+                    <a href="#testimonial">Testimonials</a>
+                </li>
+                <li class="py-2 px-4 hover:bg-gray-200 cursor-pointer font-semibold">
+                    <a href="#gallery">Gallery</a>
+                </li>
+                <li class="py-2 px-4 hover:bg-gray-200 cursor-pointer font-semibold">
+                    <a href="#contactUs">Contact</a>
+                </li>
+                <!-- Add more menu items here -->
+            </ul>
+        </div>
+
+        <div class="hidden md:block hover:text-[#9B8861]">
+            <div class="flex justify-end space-x-7 my-3">
+                <div class="flex space-x-2 get-quote-btn">
+                    <span class="material-symbols-outlined ">
+                        request_quote
+                    </span>
+                    <p class="font-semibold text-xs md:text-base mb-2">Get Quote</p>
+                </div>
+
+                <div class="flex space-x-2">
+                    <span class="material-symbols-outlined">
+                        call
+                    </span>
+                    <p class="font-semibold text-xs md:text-base">Call Now</p>
+                </div>
+                <div class="flex space-x-2">
+                    <span class="material-symbols-outlined">
+                        map
+                    </span>
+                    <p class="font-semibold text-xs md:text-base">Get Directions</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <hr>
+
+    <!-- Modal -->
+
+
+
+    <div class="block md:hidden">
+        <img class="w-full" src="https://www.gstatic.com/bfe/apps/website/img/h/51452684-notebook-1440.jpg" alt="">
+    </div>
+
+    <div
+        class="mt-6 md:mt-24 mb-4 md:mb-7 text-4xl md:text-6xl font-custom font-bold text-[#DDAA44] flex justify-center items-center">
+        Ganit, The
+        Assurance</div>
+    <p class="flex justify-center items-center text-lg">Coaching center in Naihati</p>
+    <p class="flex justify-center items-center text-lg">Open 24 hours</p>
+    <div class="flex justify-center items-center">
+        <button
+            class="get-quote-btn bg-[#DDAA44] hover:bg-blue-400 text-white font-bold mt-5 py-4 text-xl px-8 border-b-4 border-yellow-700 hover:border-blue-500 rounded">
+            GET QUOTE
+        </button>
+    </div>
+
+    <div class="hidden md:block mx-28 my-10">
+        <img class="rounded-3xl" src="https://www.gstatic.com/bfe/apps/website/img/h/51452684-notebook-1440.jpg" alt="">
+    </div>
+    <div id="testimonial" class="flex flex-col justify-center items-center">
+        <p class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></p>
+        <p class="font-custom">TESTIMONIAL</p>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 pt-24 pb-10 mx-auto">
+            <div class="flex flex-wrap -m-4">
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="data:image/jpeg;base64,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">
+                        <p class="leading-relaxed text-justify">Edison bulb retro cloud bread echo park, helvetica
+                            stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HOLDEN CAULFIELD</h2>
+                        <p class="text-gray-500">Senior Product Designer</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 mb-6 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://source.unsplash.com/random/720x600/?man">
+                        <p class="leading-relaxed text-justify">Edison bulb retro cloud bread echo park, helvetica
+                            stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">ALPER KAMU</h2>
+                        <p class="text-gray-500">UI Develeoper</p>
+                    </div>
+                </div>
+                <div class="lg:w-1/3 lg:mb-0 p-4">
+                    <div class="h-full text-center">
+                        <img alt="testimonial"
+                            class="w-20 h-20 mb-8 object-cover object-center rounded-full inline-block border-2 border-gray-200 bg-gray-100"
+                            src="https://source.unsplash.com/random/720x600/?person">
+                        <p class="leading-relaxed text-justify">Edison bulb retro cloud bread echo park, helvetica
+                            stumptown taiyaki
+                            taxidermy 90's cronut +1 kinfolk. Single-origin coffee ennui shaman taiyaki vape DIY tote
+                            bag drinking vinegar cronut adaptogen squid fanny pack vaporware.</p>
+                        <span class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></span>
+                        <h2 class="text-gray-900 font-medium title-font tracking-wider text-sm">HENRY LETHAM</h2>
+                        <p class="text-gray-500">CTO</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <marquee behavior="right" direction="left">
+        <span class="text-lg font-custom">We are here for you</span>
+    </marquee>
+
+    <div class="flex justify-center items-center space-x-5 font-semibold cursor-pointer">
+        <div class="text-[#DDAA44] pb-2 underline">
+            WRITE A REVIEW
+        </div>
+        <div class="text-[#DDAA44] pb-2 underline">
+            READ MORE
+        </div>
+    </div>
+
+    <div id="gallery" class="flex flex-col justify-center items-center">
+        <p class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></p>
+        <p class="font-custom">GALLERY</p>
+    </div>
+
+    <section class="text-gray-600 body-font">
+        <div class="container px-5 py-24 mx-auto flex flex-wrap">
+            <div class="flex w-full mb-20 flex-wrap">
+                <h1 class="sm:text-3xl text-2xl font-medium title-font text-yellow-500 lg:w-1/3 lg:mb-0 mb-4">Master
+                    Cleanse Reliac Heirloom</h1>
+                <p class="lg:pl-6 lg:w-2/3 mx-auto leading-relaxed text-base">Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Nihil porro, obcaecati voluptas exercitationem aut praesentium! Mollitia soluta
+                    fugit qui perspiciatis?.</p>
+            </div>
+            <div class="flex flex-wrap md:-m-2 -m-1">
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?skills">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?coaching">
+                    </div>
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?programming">
+                    </div>
+                </div>
+                <div class="flex flex-wrap w-1/2">
+                    <div class="md:p-2 p-1 w-full">
+                        <img alt="gallery" class="w-full h-full object-cover object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?science">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?learn">
+                    </div>
+                    <div class="md:p-2 p-1 w-1/2">
+                        <img alt="gallery" class="w-full object-cover h-full object-center block rounded-xl"
+                            src="https://source.unsplash.com/random/720x600/?teaching">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="contactUs" class="flex flex-col justify-center items-center">
+        <p class="inline-block h-1 w-10 rounded bg-yellow-500 mt-6 mb-4"></p>
+        <p class="font-custom">CONTACT US</p>
+    </div>
+
+    <section class="text-gray-600 body-font relative">
+        <div class="absolute inset-0 bg-gray-300">
+            <iframe width="100%" height="100%" frameborder="0" marginheight="0" marginwidth="0" title="map"
+                scrolling="no"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29405.168201017023!2d88.40052200384642!3d22.889530917532454!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39f8975df02c72ad%3A0x60a437c8bd7e3502!2sBombay%20Biriyani!5e0!3m2!1sen!2sus!4v1691322680773!5m2!1sen!2sus"
+                style="filter: grayscale(1) contrast(1.2) opacity(0.4);"></iframe>
+        </div>
+        <div class="container px-5 py-24 mx-auto flex">
+            <div
+                class="lg:w-1/3 md:w-1/2 bg-white rounded-lg p-8 flex flex-col md:ml-auto w-full mt-10 md:mt-0 relative z-10 shadow-md">
+                <h2 class="text-gray-900 text-lg mb-1 font-medium title-font">Feedback</h2>
+                <p class="leading-relaxed mb-5 text-gray-600">Post-ironic portland shabby chic echo park, banjo fashion
+                    axe</p>
+                <div class="relative mb-4">
+                    <label for="email" class="leading-7 text-sm text-gray-600">Email</label>
+                    <input placeholder="pratyushsingha3@gmail.com" type="email" id="email" name="email"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out">
+                </div>
+                <div class="relative mb-4">
+                    <label for="message" class="leading-7 text-sm text-gray-600">Message</label>
+                    <textarea id="message" name="message"
+                        class="w-full bg-white rounded border border-gray-300 focus:border-yellow-500 focus:ring-2 focus:ring-yellow-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors duration-200 ease-in-out"></textarea>
+                </div>
+                <button
+                    class="text-white bg-yellow-500 border-0 py-2 px-6 focus:outline-none hover:bg-yellow-600 rounded text-lg font-custom">Message</button>
+                <p class="text-xs text-gray-500 mt-3">Chicharrones blog helvetica normcore iceland tousled brook viral
+                    artisan.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="text-gray-600 body-font">
+        <div
+            class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+            <div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10">
+                <a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900">
+                    <img class="w-10 h-10 text-white rounded-full"
+                        src="https://source.unsplash.com/random/720x600/?logo" alt="">
+                    <span class="ml-3 text-xl">GANIT</span>
+                </a>
+                <p class="mt-2 text-sm text-gray-500">Air plant banjo lyft occupy retro adaptogen indego</p>
+            </div>
+            <div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first">
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">CONTACT</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">(+91) 9830355637</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">pratyushsingha83@gmail.com</a>
+                        </li>
+
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">ADDRESS</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">
+                                4/D Bijoynagar
+                                Naihati
+                                West Bengal 743165
+                                India</a>
+                        </li>
+
+                    </nav>
+                </div>
+                <div class="lg:w-1/4 md:w-1/2 w-full px-4">
+                    <h2 class="title-font font-medium text-yellow-500 tracking-widest text-sm mb-3">BUSINESS HOURS</h2>
+                    <nav class="list-none mb-10">
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                        <li>
+                            <a class="text-gray-600 hover:text-gray-800">Mon: Open 24 hours</a>
+                        </li>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <div class="bg-gray-100">
+            <div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row">
+                <p class="text-gray-500 text-sm text-center sm:text-left">© 2020 Ganit, The Assurance —
+                    <a href="https://github.com/pratyushsingha" rel="noopener noreferrer" class="text-gray-600 ml-1"
+                        target="_blank">@pratyushsingha83</a>
+                </p>
+                <span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start">
+                    <a class="text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            class="w-5 h-5" viewBox="0 0 24 24">
+                            <path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z">
+                            </path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="2" class="w-5 h-5" viewBox="0 0 24 24">
+                            <rect width="20" height="20" x="2" y="2" rx="5" ry="5"></rect>
+                            <path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01"></path>
+                        </svg>
+                    </a>
+                    <a class="ml-3 text-gray-500">
+                        <svg fill="currentColor" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                            stroke-width="0" class="w-5 h-5" viewBox="0 0 24 24">
+                            <path stroke="none"
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z">
+                            </path>
+                            <circle cx="4" cy="4" r="2" stroke="none"></circle>
+                        </svg>
+                    </a>
+                </span>
+            </div>
+        </div>
+    </footer>
+
+    <div
+        class="md:hidden text-yellow-500 hover:text-[#9B8861] flex justify-between space-x-4 sticky bottom-0 bg-white px-6 py-3">
+
+        <!-- <div class="flex justify-between space-x-4 my-3 text-yellow-500 hover:text-[#9B8861] "> -->
+        <div class="flex flex-col space-y-2 get-quote-btn">
+            <div class="flex justify-center items-center">
+                <span class=" material-symbols-outlined ">
+                    request_quote
+                </span>
+            </div>
+            <p class="font-semibold text-xs md:text-base">Quote</p>
+        </div>
+        <div class="flex flex-col space-y-2 get-quote-btn">
+            <div class="flex justify-center items-center">
+                <span class=" material-symbols-outlined ">
+                    call
+                </span>
+            </div>
+            <p class="font-semibold text-xs md:text-base">Call</p>
+        </div>
+        <div class="flex flex-col space-y-2 get-quote-btn">
+            <div class="flex justify-center items-center">
+                <span class=" material-symbols-outlined ">
+                    map
+                </span>
+            </div>
+            <p class="font-semibold text-xs md:text-base">Direction</p>
+        </div>
+
+
+    </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
